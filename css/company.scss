@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+html {
+  font-size: 62.5%;
+}
+
+@mixin fontsize($size: 24, $base: 10) {
+  font-size: $size + px;
+  font-size: ($size / $base) * 1rem;
+}
+
+$ja_font : "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+$blue1 : #42b9d0;
+$blue2 : #339fd1;
+$gray_blue : #eaf2f4;
+
+//base
+
+#contents {
+  
+  #main {
+    .company_title {
+        margin-bottom : 0; 
+    }
+    
+    th,td {
+        padding: 20px 0;
+        color: #626262;
+        font-size: 14px;
+        font-size: 1.4rem;
+        
+      }
+      
+    th {
+      padding-right: 20px;
+    }  
+      
+  }//main
+}
+//contents

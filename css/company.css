@@ -1,0 +1,14 @@
+html {
+  font-size: 62.5%; }
+
+#contents #main .company_title {
+  margin-bottom: 0; }
+#contents #main th, #contents #main td {
+  padding: 20px 0;
+  color: #626262;
+  font-size: 14px;
+  font-size: 1.4rem; }
+#contents #main th {
+  padding-right: 20px; }
+
+/*# sourceMappingURL=company.css.map */
